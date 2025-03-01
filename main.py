@@ -28,12 +28,12 @@ crossfader_pos = 0.5
 tempo1, tempo2 = 120.0, 120.0
 
 # Load two MP3 tracks
-track1_array, SAMPLE_RATE = load_track("brown.mp3")
-track2_array, _ = load_track("leon.mp3")
+track1_array, SAMPLE_RATE = load_track("mp3Files/brown.mp3")
+track2_array, _ = load_track("mp3Files/leon.mp3")
 print("test1")
-tempo1 = detect_bpm("brown.mp3")
+tempo1 = detect_bpm("mp3Files/brown.mp3")
 print("test2")
-tempo2 = detect_bpm("leon.mp3")
+tempo2 = detect_bpm("mp3Files/leon.mp3")
 
 print("test 3")
 
